@@ -8,11 +8,18 @@ function Home() {
       <Image
         src={profilePic}
         alt="Picture of the author"
-        
+        width={550}
+        height={550}
       />
        </div>
       <div className='cont__wel'>
         <h1>Welcome</h1>
+        <p className='reg_sucess'>
+          Your registration was sucessful
+          </p>
+        <button className='button__succes'>
+          <h1>Go to Home</h1>
+        </button>
         
       </div>
     </>
