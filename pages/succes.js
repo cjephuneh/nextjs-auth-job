@@ -3,11 +3,19 @@ import React from 'react'
 
 function succes() {
   return (
-    <div ClassName="success">
+    <>
+      <div ClassName="image__succes">
+          <img scr="" alt="" />
+      </div>
+      <container>
         <h1>
-          Success you have loggen in to the app
+          Welcome
         </h1>
-    </div>
+        <h2>
+          Your registration was successful
+        </h2>
+      </container>
+    </>
   )
 }
 
