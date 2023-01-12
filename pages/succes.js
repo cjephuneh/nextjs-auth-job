@@ -1,22 +1,22 @@
-import React from 'react'
+import Image from 'next/image'
+import profilePic from '../public/undraw_verified_re_4io7.png'
 
-
-function succes() {
+function Home() {
   return (
     <>
-      <div ClassName="image__succes">
-          <img scr="" alt="" />
+      <div className='img__sucess'>
+      <Image
+        src={profilePic}
+        alt="Picture of the author"
+        
+      />
+       </div>
+      <div className='cont__wel'>
+        <h1>Welcome</h1>
+        
       </div>
-      <container>
-        <h1>
-          Welcome
-        </h1>
-        <h2>
-          Your registration was successful
-        </h2>
-      </container>
     </>
   )
 }
 
-export default succes
+export default Home
