@@ -18,7 +18,7 @@ function Home() {
           Your registration was sucessful
           </p>
         <button className='button__succes'>
-          <h1>Go to Home</h1>
+          <h2>Go to Home</h2>
         </button>
         
       </div>
