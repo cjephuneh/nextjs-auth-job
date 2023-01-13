@@ -5,14 +5,14 @@ const Register = () => {
   return (
     <div>
       <div className='undraw_Access_account_re_8spm1'></div>
-      <div className='rectangle2__reg'></div>
-      <div className='rectangle7__reg'></div>
+      <input className='rectangle2__reg'></input>
+      <button className='rectangle7__reg'></button>
       <div className='rectangle1__reg'></div>
       <div className='rectangle8__reg'></div>
-      <div className='rectangle6__reg'></div>
-      <div className='rectangle3__reg'></div>
-      <div className='rectangle4__reg'></div>
-      <div className='rectangle5__reg'></div>
+      <input type='checkbox' className='rectangle6__reg'></input>
+      <input className='rectangle3__reg'></input>
+      <input className='rectangle4__reg'></input>
+      <input  className='rectangle5__reg'></input>
       <div className='createAccount__reg'>Create Account</div>
       <div className='alreadyHavingAnAccount__reg'>Already Having An Account ?</div>
       <div className='weAreHappyToHaveYouBack__reg'>We are happy to have you back</div>

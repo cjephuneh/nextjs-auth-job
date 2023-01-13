@@ -74,6 +74,11 @@ button {
 
 
 
+
+
+
+
+
 .rectangle1__reg {
   position: absolute;
   left: 79px;
@@ -84,12 +89,21 @@ button {
   box-shadow: 0px 4px 66px 21px #00000040;
 }
 .undraw_Access_account_re_8spm1 {
-  position: absolute;
-  left: 140px;
-  top: 58px;
-  width: 399px;
-  height: 367px;
+ 
+
+  
+    position: absolute;
+    left: 140px;
+    top: 58px;
+    width: 399px;
+    height: 399px;
+    background-image:/* webpackIgnore: true */ url('../public/undraw_Access_account_re_8spm-removebg-preview.png');
+    background-position: center;
+  background-repeat: no-repeat;
+    z-index: 2;  
+  
 }
+
 
 
 .rectangle2__reg {
