@@ -74,85 +74,356 @@ button {
 
 
 
-
-.create__rec{
+.rectangle1__reg {
+  position: absolute;
+  left: 79px;
+  top: 53px;
   width: 511px;
   height: 708px;
-  background: rgba(248,248,248,1);
-  opacity: 1;
-  position: absolute;
-  top: 53px;
-  left: 79px;
-  box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 66px 21px #00000040;
 }
-
-.reg__image{
+.undraw_Access_account_re_8spm1 {
+  position: absolute;
+  left: 140px;
+  top: 58px;
   width: 399px;
   height: 367px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 58px;
-  left: 50px;
-  overflow: hidden;
 }
 
-.v1_2{
-  width: 100%;
-  height: 832px;
-  background: rgba(233,232,232,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
 
-.v4_37 {
-  width: 391px;
-  color: rgba(51,49,66,1);
+.rectangle2__reg {
   position: absolute;
-  top: 470px;
-  left: 134px;
-  font-family: Inter;
-  font-weight: Bold;
+  left: 787px;
+  top: 150px;
+  width: 399px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.rectangle7__reg {
+  position: absolute;
+  left: 808px;
+  top: 578px;
+  width: 337px;
+  height: 65px;
+  border-radius: 14px;
+  background-color: #3e3c55;
+}
+.rectangle8__reg {
+  position: absolute;
+  left: 213px;
+  top: 605px;
+  width: 215px;
+  height: 65px;
+  outline: solid 2px #3e3c55;
+  outline-offset: -2px;
+  border-radius: 14px;
+}
+.rectangle6__reg {
+  position: absolute;
+  left: 787px;
+  top: 503px;
+  width: 30px;
+  height: 30px;
+  outline: solid 1px #4a9bd6;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle3__reg {
+  position: absolute;
+  left: 787px;
+  top: 233px;
+  width: 399px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.rectangle4__reg {
+  position: absolute;
+  left: 787px;
+  top: 322px;
+  width: 399px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.rectangle5__reg {
+  position: absolute;
+  left: 787px;
+  top: 414px;
+  width: 399px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.createAccount__reg {
+  color: #46445f;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 894px;
+  top: 41px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.alreadyHavingAnAccount__reg {
+  color: #333243;
   font-size: 27px;
-  opacity: 1;
-  text-align: left;
-}
-
-.v4_38 {
-  width: 370px;
-  color: rgba(0,0,0,1);
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
   position: absolute;
-  top: 538px;
+  left: 134px;
+  top: 470px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.weAreHappyToHaveYouBack__reg {
+  color: #000;
+  font-size: 25px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
   left: 142px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
+  top: 538px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
 }
-
-.v4_40 {
-  width: 78px;
-  color: rgba(62,60,85,1);
+.register__reg {
+  color: #fffdfd;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
   position: absolute;
-  top: 619px;
-  left: 283px;
-  font-family: Inter;
-  font-weight: Medium;
+  left: 922px;
+  top: 593px;
+  width: 123px;
+  height: min-content;
+  flex-direction: column;
+}
+.logIn__reg {
+  color: #3e3c55;
   font-size: 25px;
-  opacity: 1;
-  text-align: left;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 283px;
+  top: 619px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.getStartedByCreatingYourOwnAcc__reg {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 780px;
+  top: 87px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.byClickingYouAgreeToTheTermsAn__reg {
+  position: absolute;
+  left: 823px;
+  top: 503px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock__reg {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2__reg {
+  margin-top: 0;
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.fullName__reg {
+  color: #00000080;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 809px;
+  top: 170px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.emailAddress__reg {
+  color: #00000080;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 809px;
+  top: 251px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.phoneNumber__reg {
+  color: #00000080;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 809px;
+  top: 346px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.password__reg {
+  color: #00000080;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 809px;
+  top: 439px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.hidden1__reg {
+  position: absolute;
+  left: 1116px;
+  top: 428px;
+  width: 40px;
+  height: 40px;
+  background-image:/* webpackIgnore: true */ url('../public/hidden.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.or__reg {
+  color: #000;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 966px;
+  top: 664px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.line1__reg {
+  position: absolute;
+  left: 786.9995px;
+  top: 680.2504px;
+  width: 131.0091px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+}
+.rectangle9__reg {
+  position: absolute;
+  left: 836px;
+  top: 717px;
+  width: 67px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.rectangle10__reg {
+  position: absolute;
+  left: 952px;
+  top: 717px;
+  width: 67px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.rectangle11__reg {
+  position: absolute;
+  left: 1077px;
+  top: 716px;
+  width: 67px;
+  height: 65px;
+  background-color: #f8f8f8;
+}
+.icons8Google481__reg {
+  position: absolute;
+  left: 844px;
+  top: 728px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('../public/icons8-google-48.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons8AppleLogo30__reg {
+  position: absolute;
+  left: 1089px;
+  top: 727px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('../public/icons8-apple-logo-30.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons8FacebookF32__reg {
+  position: absolute;
+  left: 961px;
+  top: 727px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('../public/icons8-facebook-f-32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line2__reg {
+  position: absolute;
+  left: 1044.9995px;
+  top: 680.2504px;
+  width: 131.0091px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
 }
 
-.left__reg{
-  position: absolute; left: 894px; top: 41px; font-size: 25px; font-weight: 600; text-align: left; color: #46445f;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .create__acc{
@@ -290,14 +561,6 @@ button {
   flex-direction: column;
 }
 
-.root {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  align-items: flex-start;
-  background-color: #eee;
-  overflow: hidden;
-}
 
 
 
@@ -473,6 +736,306 @@ button {
   width: 713px;
   height: 481px;
   background-image:/* webpackIgnore: true */ url('../public/undraw_Confirm_re_69me-removebg-preview.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rectangle1__log {
+  position: absolute;
+  left: 741px;
+  top: 73px;
+  width: 477px;
+  height: 720px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 4px 65px 1px #777587;
+}
+.donTHaveAnAccount {
+  color: #2f2e41;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 809px;
+  top: 507px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.getStartedByCreatingYourNewAcc {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 776px;
+  top: 570px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.undraw_Mobile_login_re_9ntv1 {
+  position: absolute;
+  left: 770px;
+  top: 90px;
+  width: 430px;
+  height: 389px;
+  background-image:/* webpackIgnore: true */ url('../public/undraw_Mobile_login_re_9ntv.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle2__log {
+  position: absolute;
+  left: 871px;
+  top: 615px;
+  width: 253px;
+  height: 64px;
+  outline: solid 4px #2f2e41;
+  outline-offset: -4px;
+  border-radius: 14px;
+  background-color: #2f2e41;
+}
+.rectangle5__log {
+  position: absolute;
+  left: 201px;
+  top: 479px;
+  width: 233px;
+  height: 58px;
+  border-radius: 9px;
+  background-color: #2f2e41cc;
+}
+.rectangle3__log {
+  position: absolute;
+  left: 144px;
+  top: 232px;
+  width: 394px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #91939e;
+}
+.rectangle6__log {
+  position: absolute;
+  left: 151px;
+  top: 661px;
+  width: 90px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #91939e;
+}
+.rectangle7__log {
+  position: absolute;
+  left: 298px;
+  top: 661px;
+  width: 90px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #91939e;
+}
+.rectangle8__log {
+  position: absolute;
+  left: 449px;
+  top: 660px;
+  width: 90px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #91939e;
+}
+.rectangle4__log {
+  position: absolute;
+  left: 144px;
+  top: 332px;
+  width: 394px;
+  height: 64px;
+  border-radius: 4px;
+  background-color: #91939e;
+}
+.register {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 959px;
+  top: 635px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.welcomeBack {
+  color: #2f2e41;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 204px;
+  top: 134px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.or {
+  color: #000;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 325px;
+  top: 590px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.logIn {
+  color: #f9f4f4;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 264px;
+  top: 489px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.weAreHappyToHaveYouBack {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 167px;
+  top: 175px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.forgotPassword {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 363px;
+  top: 410px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.emailOrPhoneNumber {
+  color: #00000080;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 158px;
+  top: 252px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.password {
+  color: #00000080;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 158px;
+  top: 350px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.hidden1 {
+  position: absolute;
+  left: 465px;
+  top: 350px;
+  width: 44px;
+  height: 38px;
+  background-image:/* webpackIgnore: true */ url('../public/hidden.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line1 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 373px;
+  top: 607px;
+  width: 143.0315px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.line2 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 153px;
+  top: 607px;
+  width: 143.0315px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.icons8Google481 {
+  position: absolute;
+  left: 172px;
+  top: 669px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('../public/icons8-google-48.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons8AppleLogo301 {
+  position: absolute;
+  left: 319px;
+  top: 669px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('../public/icons8-apple-logo-30.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons8FacebookF321 {
+  position: absolute;
+  left: 468px;
+  top: 669px;
+  width: 48px;
+  height: 48px;
+  background-image:/* webpackIgnore: true */ url('../public/icons8-facebook-f-32.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
