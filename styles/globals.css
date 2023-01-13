@@ -182,3 +182,120 @@ button {
   padding: 19px 22px;
 }
 
+
+.rectangle1 {
+  position: absolute;
+  left: 698px;
+  top: 195px;
+  width: 514px;
+  height: 384px;
+  background-color: #eee;
+  box-shadow: 0px 4px 15px 1px #3f3d56;
+}
+.rectangle2 {
+  position: absolute;
+  left: 786px;
+  top: 373px;
+  width: 365px;
+  height: 68px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.rectangle3 {
+  position: absolute;
+  left: 786px;
+  top: 465px;
+  width: 365px;
+  height: 68px;
+  border-radius: 10px;
+  background-color: #3f3d56;
+}
+
+.undraw_Forgot_password_re_hxwm {
+  position: absolute;
+  left: 40px;
+  top: 174px;
+  width: 640px;
+  height: 426px;
+  background-image:/* webpackIgnore: true */ url('../public/undraw_Forgot_password_re_hxwm.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.forgotYourPassword {
+  color: #3f3d56;
+  font-size: 31px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 792px;
+  top: 231px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.enterYourEmailOrPhoneNumber {
+  color: #000;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 801px;
+  top: 300px;
+  width: 313px;
+  height: 53px;
+  flex-direction: column;
+}
+.andSetANewPassword {
+  color: #000;
+  font-size: 19px;
+  font-weight: 300;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 832px;
+  top: 327px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.sendCode {
+  color: #fffefe;
+  font-size: 27px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 882px;
+  top: 479px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.enterEmailOrPhoneNumber {
+  color: #00000080;
+  font-size: 19px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 809px;
+  top: 399px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  align-items: flex-start;
+  background-color: #eee;
+  overflow: hidden;
+}
+
