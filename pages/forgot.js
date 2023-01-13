@@ -5,8 +5,8 @@ const forgot = () => {
   return (
     <div className='root'>
       <div className='rectangle1'></div>
-      <div className='rectangle2'></div>
-      <div className='rectangle3'></div>
+      <input className='rectangle2'></input>
+      <button className='rectangle3'></button>
       <div className='undraw_Forgot_password_re_hxwm'></div>
       <div className='forgotYourPassword'>Forgot Your Password? </div>
       <div className='enterYourEmailOrPhoneNumber'>Enter Your Email Or Phone Number</div>
