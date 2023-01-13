@@ -19,8 +19,15 @@ const Register = () => {
         <div className="v4_40">Log-in</div>
         
 
+      </div>
+
+      <div className='left__reg'>
+        <p className='create__acc'> Create Account</p>
+        <p className='get_st'> Get started by creating your own account</p>
+        <div className='overlap-group1'>
+          <span className='full-name inter-normal-black-20px'>full name</span>
         </div>
-      
+      </div>
       
        
     </div>
